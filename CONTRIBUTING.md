@@ -1,13 +1,26 @@
+# CONTRBITUING
 To first get started clone and create a new branch in your terminal:
 ```
 $ git clone https://github.com/ReturnedTrue/Roblox-Code-Samples.git
 $ git branch my-new-sample
 $ git checkout my-new-sample
 ```
-Create your new sample, with the naming scheme of Rojo files (.server.lua for Scripts, .client.lua for LocalScripts, .module.lua for ModuleScripts). 
+Create your new sample, with the file naming scheme of Rojo (.server.lua for Scripts, .client.lua for LocalScripts, .module.lua for ModuleScripts) and place accordingly. 
 <br />
-Your sample must follow the layout of:
+Be sure to add your comment detailsat the top of your file:
+```lua
+--[[
+    Author: 
+    Date Created:
+    Name: 
+    Description:
+--]]
 ```
+<br />
+<br />
+Also, your sample must follow the layout of:
+```
+Options (given by the user of the sample)
 Services
 Instances
 Modules
@@ -20,6 +33,7 @@ Invokes
 ```
 Or for classes:
 ```
+Options (given by the user of the sample)
 Services
 Instances
 Modules
@@ -29,8 +43,11 @@ Class definition
 Class functions
 Init
 ```
-Once done, merge and push:
+Once done: add, commit, merge and push:
 ```
+$ git add .
+$ git commit -m "Add my new sample"
 $ git merge my-new-sample
 $ git push https://github.com/ReturnedTrue/Roblox-Code-Samples.git master
 ```
+Be sure to pull if any new samples were added!
