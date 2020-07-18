@@ -5,15 +5,15 @@ $ git clone https://github.com/ReturnedTrue/Roblox-Code-Samples.git
 $ git branch my-new-sample
 $ git checkout my-new-sample
 ```
-Create your new sample, with the file naming scheme of Rojo (.server.lua for Scripts, .client.lua for LocalScripts, .module.lua for ModuleScripts) and place accordingly. 
+Create your new sample, with the file naming scheme of Rojo (.server.lua for Scripts, .client.lua for LocalScripts, .module.lua for ModuleScripts) and place accordingly. You may use directories with the init file inside if necessary.
 <br />
 Be sure to add your comment detailsat the top of your file:
 ```lua
 --[[
-    Author: 
-    Date Created:
-    Name: 
-    Description:
+    Author: (Your Roblox username)
+    Date Created:(dd/mm/yyyy)
+    Name: (Sample name)
+    Description: (Sample description)
 --]]
 ```
 <br />
@@ -40,7 +40,8 @@ Modules
 Constants
 Variables
 Class definition
-Class functions
+Class constructor
+Class methods
 Init
 ```
 Once done: add, commit, merge and push:
