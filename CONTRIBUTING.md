@@ -1,7 +1,8 @@
 # CONTRIBUTING
-To first get started clone and create a new branch in your terminal:
+To first get started add a remote for the repo, clone and create a new branch in your terminal:
 ```
-$ git clone https://github.com/ReturnedTrue/Roblox-Code-Samples.git
+$ git remote add rcs https://github.com/ReturnedTrue/Roblox-Code-Samples.git
+$ git clone rcs
 $ git branch my-new-sample
 $ git checkout my-new-sample
 ```
@@ -54,13 +55,18 @@ Class methods
 Init
 ```
 
-Once done: add, commit, merge and push:
+Once done: add, commit and push to your branch:
 
 ```
 $ git add .
 $ git commit -m "Add my new sample"
-$ git merge my-new-sample
-$ git push https://github.com/ReturnedTrue/Roblox-Code-Samples.git master
+$ git push rcs my-new-sample
 ```
 
-Be sure to pull if any new samples were added!
+Be sure to pull beforehand if any new samples were added!
+
+```
+$ git pull rcs master
+```
+
+Now on GitHub, start a PR and we'll get back to you shortly.
